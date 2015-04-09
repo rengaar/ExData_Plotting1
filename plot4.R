@@ -1,3 +1,6 @@
+# file dataProcessing.R contains the code the processes the original dataset
+# and creates data.txt containing only requested dates.
+
 data <- read.table("data.txt", sep=";", header=TRUE)
 
 png("plot4.png", height = 480, width = 480, bg = "transparent")
