@@ -1,4 +1,4 @@
-# file dataProcessing.R contains the code the processes the original dataset
+# file dataProcessing.R contains the code that processes the original dataset
 # and creates data.txt containing only requested dates.
 
 data <- read.table("data.txt", sep=";", header=TRUE)
